@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 25 Jan 2022 17:11:25 +0300
+Source: nginx
+Binary: nginx nginx-dbg
+Architecture: amd64
+Version: 1.21.6-1~bullseye
+Distribution: bullseye
+Urgency: low
+Maintainer: NGINX Packaging <nginx-packaging@f5.com>
+Changed-By: Konstantin Pavlov <thresh@nginx.com>
+Description:
+ nginx      - high performance web server
+ nginx-dbg  - nginx debug symbols
+Changes:
+ nginx (1.21.6-1~bullseye) bullseye; urgency=low
+ .
+   * 1.21.6-1
+Checksums-Sha1:
+ c3ce58158f3ebf5f45eb00fdbc3df5603d10490a 11771720 nginx-dbg_1.21.6-1~bullseye_amd64.deb
+ 1ac31f9569674cb8d34109dbe5543325f3bfa507 5903 nginx_1.21.6-1~bullseye_amd64.buildinfo
+ 82796ca731423f60178a435ec25338ca3c0bb5e9 2194600 nginx_1.21.6-1~bullseye_amd64.deb
+Checksums-Sha256:
+ 3565a636ed5ae387eb0a3cb44cd4653d76136d425baed2ffe665601cf5ff02b0 11771720 nginx-dbg_1.21.6-1~bullseye_amd64.deb
+ 4177edc3769a1af1d3a494226a82987f787319695cc90637423554e1fd953659 5903 nginx_1.21.6-1~bullseye_amd64.buildinfo
+ a52a1afdd147aeece5648b2dd490ba701b45704f4b00f0fb24b9231cff888cf2 2194600 nginx_1.21.6-1~bullseye_amd64.deb
+Files:
+ 2b96ec05657f09dca1c56d72c8be2f27 11771720 debug extra nginx-dbg_1.21.6-1~bullseye_amd64.deb
+ 8706371d65c00b2890c37e9a7cb9fde0 5903 httpd optional nginx_1.21.6-1~bullseye_amd64.buildinfo
+ d18eb132ff9dc16c3e90e7514ee7879e 2194600 httpd optional nginx_1.21.6-1~bullseye_amd64.deb
